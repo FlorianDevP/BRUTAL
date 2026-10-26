@@ -125,7 +125,9 @@ Glfw.Terminate();
 dotnet run
 ```
 
-That opens a window with no graphics API. What you add next is up to you:
+That opens a window with no graphics API. For a minimal sample of every package, see [samples](samples/README.md).
+
+What you add next is up to you:
 
 - **Rendering:** `Ahwoo.Brutal.Vulkan.Abstractions` and `Ahwoo.Brutal.Vulkan.Vma` for a Vulkan renderer, `Ahwoo.Brutal.ShaderC` to compile shaders at runtime.
 - **Debug UI:** `Ahwoo.Brutal.ImGui` and `Ahwoo.Brutal.ImPlot`.
