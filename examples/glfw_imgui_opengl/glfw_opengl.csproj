@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ahwoo.BRUTAL.Core" Version="2026.10.4" />
+    <PackageReference Include="Ahwoo.BRUTAL.Glfw" Version="2026.10.5" />
+    <PackageReference Include="Ahwoo.BRUTAL.ImGui" Version="2026.10.3" />
+    <PackageReference Include="Ahwoo.BRUTAL.ImGui.Abstractions" Version="2026.10.3" />
+    <PackageReference Include="Ahwoo.BRUTAL.ImGui.Backends" Version="2026.10.3" />
+    <PackageReference Include="Ahwoo.BRUTAL.ImGui.Extensions" Version="2026.10.3" />
+    <PackageReference Include="Ahwoo.BRUTAL.ImPlot" Version="2026.10.3" />
+    <PackageReference Include="Ahwoo.BRUTAL.Logging" Version="2026.10.3" />
+    <PackageReference Include="Ahwoo.BRUTAL.OpenGl" Version="2026.10.2" />
+    <PackageReference Include="Ahwoo.BRUTAL.Texture" Version="2026.10.3" />
+    <PackageReference Include="ICSharpCode.ILSpyX" Version="11.2.0.10050" />
+    <PackageReference Include="Microsoft.Extensions.DependencyModel" Version="10.0.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="shader.vert" />
+    <EmbeddedResource Include="shader.frag" />
+    <EmbeddedResource Include="../../docs/branding/LOGO_BRUTAL_BLK.png" />
+    <EmbeddedResource Include="../../docs/branding/LOGO_BRUTAL_WHT.png" />
+  </ItemGroup>
+
+</Project>
